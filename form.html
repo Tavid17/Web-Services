@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Mi Primer Proyector</title>
+      <link rel="stylesheet" href="css/styleform.css">
+    <body> 
+      <div class="form-container">
+        <form class="registration-form">
+          <h2>Registro de Usuario</h2>
+            <label for="nombre">Nombre:</label>
+
+            <!--subtitulo-->
+            
+            <input type="text" id="nombre" name="nombre" required />
+
+            <!--capturar información-->
+
+            <label for="direccion">Dirección:</label>
+            <input type="text" name="direccion" />
+            <label for="email">Email:</label>
+            <input type="text" name="email" />
+            <label for="ciudad">Ciudad:</label>
+            <select name="ciudad" id="ciudad">
+                <option value="">--Ciudad--</option>
+                <option value="1">Bogotá</option>
+                <option value="2">Cali</option>
+                <option value="3">Medellin</option>
+            </select>
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" />
+            <label for="telefono">telefono:</label>
+            <input type="number" id="telefono" name="telefono">
+            <button>Enviar</button>
+            <!-- test1 -->
+</form>
+    </body>
+</html>
